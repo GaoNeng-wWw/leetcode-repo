@@ -6,4 +6,4 @@ set_languages("cxx23")
 
 target("leetcode")
     set_kind("binary")
-    add_files("src/120.cc")
+    add_files("src/121.cc")
