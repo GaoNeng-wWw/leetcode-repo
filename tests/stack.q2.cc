@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../src/stack.q2.cc" // 假设上面的代码在这个头文件里
+#include "../src/stack.q2.cc"
 
 // 测试用例 1: 基础加法和乘法
 TEST(RPNTest, BasicExample) {

@@ -11,8 +11,5 @@ foreach(test_file ${TEST_FILES})
           gtest 
           gtest_main
   )
-
-  # 改进点：使用 $<TARGET_FILE:${test_name}> 
-  # 这会让 CMake 自动填充可执行文件的绝对路径（包括 .exe 后缀）
   add_test(NAME ${test_name} COMMAND $<TARGET_FILE:${test_name}>)
 endforeach()
